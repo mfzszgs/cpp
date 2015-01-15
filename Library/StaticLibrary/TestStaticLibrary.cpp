@@ -1,6 +1,5 @@
 #include "StaticMath.h"
 #include <iostream>
-#include<stdio.h>
 using namespace std;
  
 int main(int argc, char* argv[])
@@ -15,7 +14,7 @@ int main(int argc, char* argv[])
  
     StaticMath sm;
     sm.print();
- 
-    getchar();
     return 0;
 }
+
+
