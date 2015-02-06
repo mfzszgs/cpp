@@ -1,0 +1,19 @@
+/*
+ * intset.cpp
+ *
+ *  Created on: Jan 16, 2015
+ *      Author: swy
+ */
+#include<iostream>
+#include<set>
+#include<cassert>
+using namespace std;
+
+int main(){
+	set<int> intset;
+	for
+	cout<<"a"<<endl;
+}
+
+
+

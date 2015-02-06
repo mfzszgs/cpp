@@ -1,0 +1,14 @@
+/*
+ * intset.cpp
+ *
+ *  Created on: Jan 16, 2015
+ *      Author: swy
+ */
+#include<iostream>
+using namespace std;
+int main(){
+	cout<<"a"<<endl;
+}
+
+
+

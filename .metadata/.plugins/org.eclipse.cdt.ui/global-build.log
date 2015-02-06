@@ -1,422 +1,96 @@
-23:50:08 **** Incremental Build of configuration Debug for project Test ****
+16:14:41 **** Build of configuration Debug for project Intset ****
 make all 
-Building file: ../s.cpp
+Building file: ../intset.cpp
 Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"s.d" -MT"s.d" -o "s.o" "../s.cpp"
-../s.cpp:27:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../s.cpp:83:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../s.cpp:93:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../s.cpp:160:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../s.cpp:161:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../s.cpp: At global scope:
-../s.cpp:179:33: error: ‘::main’ must return ‘int’
- void main(int argc, char *argv[])
-                                 ^
-../s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../s.cpp:176:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-make: *** [s.o] Error 1
-23:50:56 **** Incremental Build of configuration Debug for project Test ****
-make all 
-Building file: ../s.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"s.d" -MT"s.d" -o "s.o" "../s.cpp"
-../s.cpp:27:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../s.cpp:83:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../s.cpp:93:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../s.cpp:160:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../s.cpp:161:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../s.cpp:176:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../s.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"intset.d" -MT"intset.d" -o "intset.o" "../intset.cpp"
+Finished building: ../intset.cpp
  
-Building target: Test
+Building target: Intset
 Invoking: GCC C++ Linker
-g++ -L/usr/local/cuda/lib64 -o "Test"  ./s.o   -lOpenCL
-Finished building target: Test
+g++  -o "Intset"  ./intset.o   
+Finished building target: Intset
  
-23:51:04 **** Incremental Build of configuration Debug for project Test ****
+16:14:47 **** Incremental Build of configuration Debug for project Intset ****
 make all 
 make: Nothing to be done for `all'.
-23:51:35 **** Incremental Build of configuration Debug for project Test ****
+16:14:51 **** Incremental Build of configuration Debug for project Intset ****
 make all 
-Building file: ../s.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"s.d" -MT"s.d" -o "s.o" "../s.cpp"
-../s.cpp:27:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../s.cpp: In function ‘void output(float*)’:
-../s.cpp:74:3: error: ‘cout’ is not a member of ‘std’
-   std::cout << F[r] << std::endl;
-   ^
-../s.cpp:74:24: error: ‘endl’ is not a member of ‘std’
-   std::cout << F[r] << std::endl;
-                        ^
-../s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../s.cpp:83:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../s.cpp:93:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../s.cpp:160:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../s.cpp:161:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../s.cpp:176:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-make: *** [s.o] Error 1
-23:52:58 **** Incremental Build of configuration Debug for project Test ****
+make: Nothing to be done for `all'.
+16:18:25 **** Incremental Build of configuration Debug for project Intset ****
 make all 
-Building file: ../s.cpp
+Building file: ../intset.cpp
 Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"s.d" -MT"s.d" -o "s.o" "../s.cpp"
-../s.cpp:27:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../s.cpp: In function ‘void output(float*)’:
-../s.cpp:74:3: error: ‘cout’ was not declared in this scope
-   cout << F[r] << endl;
-   ^
-../s.cpp:74:19: error: ‘endl’ was not declared in this scope
-   cout << F[r] << endl;
-                   ^
-../s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../s.cpp:83:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../s.cpp:93:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../s.cpp:160:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../s.cpp:161:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../s.cpp:176:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-make: *** [s.o] Error 1
-23:53:41 **** Incremental Build of configuration Debug for project Test ****
-make all 
-Building file: ../s.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"s.d" -MT"s.d" -o "s.o" "../s.cpp"
-../s.cpp:28:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../s.cpp: In function ‘void output(float*)’:
-../s.cpp:75:3: error: ‘cout’ was not declared in this scope
-   cout << F[r] << endl;
-   ^
-../s.cpp:75:3: note: suggested alternative:
-In file included from ../s.cpp:2:0:
-/usr/include/c++/4.8/iostream:61:18: note:   ‘std::cout’
-   extern ostream cout;  /// Linked to standard output
-                  ^
-../s.cpp:75:19: error: ‘endl’ was not declared in this scope
-   cout << F[r] << endl;
-                   ^
-../s.cpp:75:19: note: suggested alternative:
-In file included from /usr/include/c++/4.8/iostream:39:0,
-                 from ../s.cpp:2:
-/usr/include/c++/4.8/ostream:564:5: note:   ‘std::endl’
-     endl(basic_ostream<_CharT, _Traits>& __os)
-     ^
-../s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../s.cpp:84:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../s.cpp:94:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../s.cpp:161:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../s.cpp:162:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../s.cpp:177:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-make: *** [s.o] Error 1
-23:56:41 **** Incremental Build of configuration Debug for project Test ****
-make all 
-Building file: ../s.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"s.d" -MT"s.d" -o "s.o" "../s.cpp"
-../s.cpp:28:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../s.cpp: In function ‘void output(float*)’:
-../s.cpp:75:3: error: ‘cout’ was not declared in this scope
-   cout << F[r] << endl;
-   ^
-../s.cpp:75:3: note: suggested alternative:
-In file included from ../s.cpp:2:0:
-/usr/include/c++/4.8/iostream:61:18: note:   ‘std::cout’
-   extern ostream cout;  /// Linked to standard output
-                  ^
-../s.cpp:75:19: error: ‘endl’ was not declared in this scope
-   cout << F[r] << endl;
-                   ^
-../s.cpp:75:19: note: suggested alternative:
-In file included from /usr/include/c++/4.8/iostream:39:0,
-                 from ../s.cpp:2:
-/usr/include/c++/4.8/ostream:564:5: note:   ‘std::endl’
-     endl(basic_ostream<_CharT, _Traits>& __os)
-     ^
-../s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../s.cpp:84:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../s.cpp:94:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../s.cpp:161:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../s.cpp:162:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../s.cpp:177:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-make: *** [s.o] Error 1
-23:58:18 **** Incremental Build of configuration Debug for project Test ****
-make all 
-Building file: ../src/s.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/s.d" -MT"src/s.d" -o "src/s.o" "../src/s.cpp"
-../src/s.cpp:29:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../src/s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../src/s.cpp:85:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../src/s.cpp:95:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../src/s.cpp:162:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../src/s.cpp:163:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../src/s.cpp:178:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../src/s.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"intset.d" -MT"intset.d" -o "intset.o" "../intset.cpp"
+Finished building: ../intset.cpp
  
-Building target: Test
+Building target: Intset
 Invoking: GCC C++ Linker
-g++ -L/usr/local/cuda/lib64 -o "Test"  ./src/s.o   -lOpenCL
-Finished building target: Test
+g++  -o "Intset"  ./intset.o   
+Finished building target: Intset
  
-23:58:30 **** Incremental Build of configuration Debug for project Test ****
+16:18:28 **** Incremental Build of configuration Debug for project Intset ****
 make all 
 make: Nothing to be done for `all'.
-00:17:37 **** Incremental Build of configuration Debug for project Test ****
+16:18:32 **** Incremental Build of configuration Debug for project Intset ****
 make all 
-Building file: ../src/s.cpp
+make: Nothing to be done for `all'.
+16:18:55 **** Incremental Build of configuration Debug for project Intset ****
+make all 
+Building file: ../intset.cpp
 Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/s.d" -MT"src/s.d" -o "src/s.o" "../src/s.cpp"
-../src/s.cpp:29:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../src/s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../src/s.cpp:85:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../src/s.cpp:95:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../src/s.cpp:162:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../src/s.cpp:163:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../src/s.cpp:178:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../src/s.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"intset.d" -MT"intset.d" -o "intset.o" "../intset.cpp"
+Finished building: ../intset.cpp
  
-Building target: Test
+Building target: Intset
 Invoking: GCC C++ Linker
-g++ -L/usr/local/cuda/lib64 -o "Test"  ./src/s.o   -lOpenCL
-Finished building target: Test
+g++  -o "Intset"  ./intset.o   
+Finished building target: Intset
  
-00:28:09 **** Incremental Build of configuration Debug for project Test ****
+16:18:57 **** Incremental Build of configuration Debug for project Intset ****
 make all 
-Building file: ../src/s.cpp
+make: Nothing to be done for `all'.
+16:42:14 **** Incremental Build of configuration Debug for project Intset ****
+make all 
+make: Nothing to be done for `all'.
+16:42:15 **** Build of configuration Debug for project Stlshape ****
+make all 
+Building file: ../Stlshape.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Stlshape.d" -MT"Stlshape.d" -o "Stlshape.o" "../Stlshape.cpp"
+Finished building: ../Stlshape.cpp
+ 
+Building target: Stlshape
+Invoking: Cross G++ Linker
+g++  -o "Stlshape"  ./Stlshape.o   
+Finished building target: Stlshape
+ 
+16:42:22 **** Incremental Build of configuration Debug for project Stlshape ****
+make all 
+make: Nothing to be done for `all'.
+16:44:57 **** Incremental Build of configuration Debug for project Intset ****
+make all 
+Building file: ../intset.cpp
 Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/s.d" -MT"src/s.d" -o "src/s.o" "../src/s.cpp"
-../src/s.cpp:29:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../src/s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../src/s.cpp:85:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../src/s.cpp:95:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../src/s.cpp:162:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../src/s.cpp:163:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../src/s.cpp:178:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../src/s.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"intset.d" -MT"intset.d" -o "intset.o" "../intset.cpp"
+Finished building: ../intset.cpp
  
-Building target: Test
+Building target: Intset
 Invoking: GCC C++ Linker
-g++ -L/usr/local/cuda/lib64 -o "Test"  ./src/s.o   -lOpenCL
-Finished building target: Test
+g++  -o "Intset"  ./intset.o   
+Finished building target: Intset
  
-10:52:50 **** Incremental Build of configuration Debug for project Test ****
+16:44:57 **** Incremental Build of configuration Debug for project Stlshape ****
 make all 
-Building file: ../src/s.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/s.d" -MT"src/s.d" -o "src/s.o" "../src/s.cpp"
-../src/s.cpp:29:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../src/s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../src/s.cpp:85:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../src/s.cpp:95:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../src/s.cpp:162:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../src/s.cpp:163:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../src/s.cpp:178:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../src/s.cpp
+Building file: ../Stlshape.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Stlshape.d" -MT"Stlshape.d" -o "Stlshape.o" "../Stlshape.cpp"
+Finished building: ../Stlshape.cpp
  
-Building target: Test
-Invoking: GCC C++ Linker
-g++ -L/usr/local/cuda/lib64 -o "Test"  ./src/s.o   -lOpenCL
-Finished building target: Test
+Building target: Stlshape
+Invoking: Cross G++ Linker
+g++  -o "Stlshape"  ./Stlshape.o   
+Finished building target: Stlshape
  
-10:53:00 **** Incremental Build of configuration Debug for project Test ****
-make all 
-make: Nothing to be done for `all'.
-10:57:51 **** Build of configuration Debug for project OpenCLInfo ****
-make all 
-Building file: ../src/OpenCLInfo.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OpenCLInfo.d" -MT"src/OpenCLInfo.d" -o "src/OpenCLInfo.o" "../src/OpenCLInfo.cpp"
-../src/OpenCLInfo.cpp: In function ‘void displayInfo()’:
-../src/OpenCLInfo.cpp:414:16: warning: unused variable ‘context’ [-Wunused-variable]
-     cl_context context = NULL;
-                ^
-../src/OpenCLInfo.cpp: In function ‘int main(int, char**)’:
-../src/OpenCLInfo.cpp:810:16: warning: unused variable ‘context’ [-Wunused-variable]
-     cl_context context = 0;
-                ^
-Finished building: ../src/OpenCLInfo.cpp
- 
-Building target: OpenCLInfo
-Invoking: GCC C++ Linker
-g++ -L/usr/local/cuda/lib64 -o "OpenCLInfo"  ./src/OpenCLInfo.o   -lOpenCL
-Finished building target: OpenCLInfo
- 
-10:58:01 **** Incremental Build of configuration Debug for project OpenCLInfo ****
-make all 
-make: Nothing to be done for `all'.
-11:13:19 **** Incremental Build of configuration Debug for project OpenCLInfo ****
-make all 
-make: Nothing to be done for `all'.
-11:13:30 **** Incremental Build of configuration Debug for project OpenCLInfo ****
-make all 
-make: Nothing to be done for `all'.
-11:13:33 **** Build of configuration Debug for project HelloWorld ****
-make all 
-make: Nothing to be done for `all'.
-11:14:14 **** Incremental Build of configuration Debug for project OpenCLInfo ****
-make all 
-make: Nothing to be done for `all'.
-20:56:01 **** Incremental Build of configuration Debug for project Test ****
-make all 
-Building file: ../src/s.cpp
-Invoking: GCC C++ Compiler
-g++ -I/usr/local/cuda/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/s.d" -MT"src/s.d" -o "src/s.o" "../src/s.cpp"
-../src/s.cpp:29:1: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
- "\n";
- ^
-../src/s.cpp: In function ‘int mul(float*, float*, float*, int, int, int)’:
-../src/s.cpp:85:9: warning: unused variable ‘local’ [-Wunused-variable]
-  size_t local[DIM];
-         ^
-../src/s.cpp:95:6: warning: unused variable ‘i’ [-Wunused-variable]
-  int i;
-      ^
-../src/s.cpp:162:11: warning: unused variable ‘ev_end_time’ [-Wunused-variable]
-  cl_ulong ev_end_time = (cl_ulong)0;
-           ^
-../src/s.cpp:163:9: warning: unused variable ‘ret_size’ [-Wunused-variable]
-  size_t ret_size;
-         ^
-../src/s.cpp:178:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-Finished building: ../src/s.cpp
- 
-Building target: Test
-Invoking: GCC C++ Linker
-g++ -L/usr/local/cuda/lib64 -o "Test"  ./src/s.o   -lOpenCL
-Finished building target: Test
- 
-23:11:42 **** Incremental Build of configuration Debug for project Test ****
-make all 
-make: Nothing to be done for `all'.
-23:11:49 **** Build of configuration Debug for project OpenCLInfo ****
-make all 
-make: Nothing to be done for `all'.
-23:22:43 **** Incremental Build of configuration Debug for project OpenCLInfo ****
-make all 
-make: Nothing to be done for `all'.
-23:59:11 **** Incremental Build of configuration Debug for project OpenCLInfo ****
+16:44:59 **** Incremental Build of configuration Debug for project Stlshape ****
 make all 
 make: Nothing to be done for `all'.

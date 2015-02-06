@@ -1,0 +1,15 @@
+16:44:57 **** Incremental Build of configuration Debug for project Intset ****
+make all 
+Building file: ../intset.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"intset.d" -MT"intset.d" -o "intset.o" "../intset.cpp"
+Finished building: ../intset.cpp
+ 
+Building target: Intset
+Invoking: GCC C++ Linker
+g++  -o "Intset"  ./intset.o   
+Finished building target: Intset
+ 
+
+16:44:57 Build Finished (took 438ms)
+
